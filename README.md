@@ -40,7 +40,7 @@ Este é um sistema web desenvolvido para fins acadêmicos que permite a geraçã
 
 ### 1. Preenchimento do Formulário
 
-![tela_de_preenchimento](https://github.com/user-attachments/assets/b82a423b-4d86-4e8a-9172-93c24b8ea74a)
+![tela_de_preenchimento](https://github.com/user-attachments/assets/585fb762-d585-4d55-9742-4dd63dd86732)
 
 | Campo | Descrição | Exemplo |
 |-------|-----------|---------|
@@ -94,13 +94,13 @@ O sistema mostra automaticamente a sequência gerada:
 
 ## 🛠️ Estrutura dos Arquivos
 
-etiquetas-free/
-├── index.php # Interface principal
-├── backend.php # Processamento dos dados
-├── script.js # Funcionalidades frontend
-├── style.css # Estilos da aplicação
-├── diagrama.jpg # Layout das etiquetas
-└── functions.php # Funções auxiliares
+| etiquetas-free |
+|--- index.php # Interface principal
+|--- backend.php # Processamento dos dados
+|--- script.js # Funcionalidades frontend
+|--- style.css # Estilos da aplicação
+|--- diagrama.jpg # Layout das etiquetas
+|--- functions.php # Funções auxiliares
 
 
 ## 📦 Tecnologias Utilizadas
@@ -117,8 +117,10 @@ etiquetas-free/
 4. Use papel de qualidade para melhor resultado
 5. **Configure margens personalizadas** conforme especificado
 
-📞 Suporte
-Este é um projeto acadêmico desenvolvido para fins educacionais. Para dúvidas ou sugestões, entre em contato através do repositório do projeto.
+
+## 📞 Suporte
+
+- Este é um projeto acadêmico desenvolvido para fins educacionais. Para dúvidas ou sugestões, entre em contato através do repositório do projeto.
 
 
 
