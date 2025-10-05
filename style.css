@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative; /* Adicionado para posicionar o tooltip corretamente */
+}
+
+input, button {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Layout específico para os campos */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Estilo para a visualização da sequência numérica */
+.resultado-sequencia {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilo do contêiner do link diagrama */
+.link-container {
+    margin: 20px 0; /* Espaçamento acima e abaixo do link */
+    text-align: center;
+}
+
+/* Estilo do link */
+.dimensao-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #4A90E2;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dimensao-link:hover {
+    background-color: #4A90E2;
+    color: #fff;
+}/* Estilo do link/ícone abaixo do título para o diagrama */
+
+
+
+/* Estilo para o ícone e tooltip */
+.tooltip-icon {
+    cursor: pointer;
+    font-size: 16px;
+    position: relative; /* Adicionado para posicionar o tooltip corretamente */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posiciona o tooltip acima do ícone */
+    left: 50%;
+    margin-left: -100px; /* Centraliza o tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .form-row {
+        display: block;
+        gap: 15px;
+    }
+
+    .form-group {
+        flex: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    input, button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .form-row {
+        display: block;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
