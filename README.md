@@ -94,14 +94,15 @@ O sistema mostra automaticamente a sequência gerada:
 
 ## 🛠️ Estrutura dos Arquivos
 
-| etiquetas-free |
-|--- index.php # Interface principal
-|--- backend.php # Processamento dos dados
-|--- script.js # Funcionalidades frontend
-|--- style.css # Estilos da aplicação
-|--- diagrama.jpg # Layout das etiquetas
-|--- functions.php # Funções auxiliares
-
+```plaintext
+etiquetas-free/
+├── index.php
+├── backend.php
+├── script.js
+├── style.css
+├── diagrama.jpg
+└── functions.php
+```
 
 ## 📦 Tecnologias Utilizadas
 
