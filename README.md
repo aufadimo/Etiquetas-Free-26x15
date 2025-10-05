@@ -1,4 +1,4 @@
-# Sistema de Etiquetas Acadêmico
+# Sistema de Etiquetas Free [26x15]
 
 ## 📋 Sobre o Projeto
 
