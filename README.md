@@ -121,7 +121,7 @@ etiquetas-free/
 
 ## 📞 Suporte
 
-- Este é um projeto acadêmico desenvolvido para fins educacionais. Para dúvidas ou sugestões, entre em contato através do repositório do projeto.
+- Este é um projeto acadêmico desenvolvido para fins educacionais. Para dúvidas ou sugestões, entre em contato através link http://webapps.dev.br/contato.php.
 
 
 
